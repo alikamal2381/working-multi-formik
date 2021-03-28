@@ -1,11 +1,12 @@
-import "./App.css";
+import React from "react";
+import { UserForm } from "./components/UserForm";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <h1>Hello Formik and Material UI</h1>
+      <UserForm />
     </div>
   );
-}
+};
 
 export default App;
